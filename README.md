@@ -1,22 +1,22 @@
-##Overview Problem 
+## Overview Problem 
 Forecasts aren’t just for meteorologists. Governments forecast economic growth. Scientists attempt to predict the future population. And businesses forecast product demand—a common task of professional data scientists. Forecasts are especially relevant to brick-and-mortar grocery stores, which must dance delicately with how much inventory to buy. Predict a little over, and grocers are stuck with overstocked, perishable goods. Guess a little under, and popular items quickly sell out, leading to lost revenue and upset customers. More accurate forecasting, thanks to machine learning, could help ensure retailers please customers by having just enough of the right products at the right time.
 
 Current subjective forecasting methods for retail have little data to back them up and are unlikely to be automated. The problem becomes even more complex as retailers add new locations with unique needs, new products, ever-transitioning seasonal tastes, and unpredictable product marketing.
 
-##Potential Impact
+## Potential Impact
 If successful, you'll have flexed some new skills in a real-world example. For grocery stores, more accurate forecasting can decrease food waste related to overstocking and improve customer satisfaction. The results of this ongoing competition, over time, might even ensure your local store has exactly what you need the next time you shop.
 
-##Evaluation
+## Evaluation
 The evaluation metric for this competition is Root Mean Squared Logarithmic Error.
 
-##About Data
+## About Data
 Time series data with range
 - January 1, 2013, to August 15. 2017 for train data
 - August 16, 2017 to August 31, 2018 for test data
 The goal is to predict sales for product families sold in data test
 Have some additional data like oil, price, holiday/event, and store
 
-##Workflow
+## Workflow
 1. Data preparation
 2. Data Preprocessing
 Focussing attention on :
@@ -55,11 +55,11 @@ Cons
 
 We tried to use linear regression at first, but since the data is multivariate, we decided to use random-forest-regressor as our main model.
 
-##RESULTS
+## RESULTS
 Using RandomForestRegressor
 Kaggle : about 0.61974
 
-##Comparison
+## Comparison
 Using XGBoost (learning rate = 0.1)
 In notebook : 1.3250
 Kaggle score : 0.98921
