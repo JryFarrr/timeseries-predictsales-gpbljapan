@@ -40,9 +40,9 @@ connects to another node
 Ex. Is it holiday? Is the oil value above 50?  Is the family_mean value above 100? Many branch make regression more accurate. The aim of Preprocessing was to make data fit into decision tree
 
 How it work:
-Step 1: split data into many pieces (120 pieces for this project)
-Step 2: each data of pieces were put into corresponding decision tree
-Step 3: Take mean of decision tree values to predict value For classification, we do majority vote instead of taking mean.
+- Step 1: split data into many pieces (120 pieces for this project)
+- Step 2: each data of pieces were put into corresponding decision tree
+- Step 3: Take mean of decision tree values to predict value For classification, we do majority vote instead of taking mean.
 ![image](https://github.com/user-attachments/assets/1a108671-6134-48e0-9f18-81e76e6faa6d)
 ![image](https://github.com/user-attachments/assets/33d8626f-d752-4e32-bc5b-de9d7f3356b5)
 
